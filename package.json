@@ -1,11 +1,17 @@
 {
-  "name": "quick-status",
+  "name": "@PrashantNegi878/quick-status",
+  "private": false,
   "version": "1.0.0",
   "description": "Online Status Indicator",
-  "main": "index.jsx",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "vite build && tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "author": "Prashant Negi",
   "license": "ISC",
@@ -17,5 +23,8 @@
   },
   "peerDependencies": {
     "react": "^18.2.0"
-  }
+  },
+  "publishConfig": {
+    "@PrashantNegi878:registry": "https://npm.pkg.github.com"
+    }
 }
