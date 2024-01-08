@@ -1,7 +1,6 @@
-import { useState } from 'react';
-import './QuickStatus.css';
-import React from 'react';
-import { JSX } from 'react';
+import React,{ useState,JSX } from 'react';
+import "./QuickStatus.css";
+import "../style.css";
 
 interface QuickStatusProps{
   bottom?:string,
