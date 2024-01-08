@@ -13,7 +13,7 @@ interface QuickStatusProps{
 }
 
 // eslint-disable-next-line react/prop-types
-const QuickStatus = ({bottom='10px',right='10px',onlineBgColor='rgba(0, 128, 0, 0.5)',onlineContent='😊 You are now connected to the Internet',
+export const QuickStatus = ({bottom='10px',right='10px',onlineBgColor='rgba(0, 128, 0, 0.5)',onlineContent='😊 You are now connected to the Internet',
                             // eslint-disable-next-line react/prop-types
                             offlineBgColor='rgba(255, 0, 0, 0.5)',offlineContent='😢 The Internet connection has been lost'}:QuickStatusProps) => {
 
@@ -44,4 +44,3 @@ const QuickStatus = ({bottom='10px',right='10px',onlineBgColor='rgba(0, 128, 0, 
   );
 };
 
-export default QuickStatus;
