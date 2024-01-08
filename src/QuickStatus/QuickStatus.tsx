@@ -23,10 +23,10 @@ export const QuickStatus = ({bottom='10px',right='10px',onlineBgColor='rgba(0, 1
     const styles={position:'absolute',bottom:bottom,right:right,paddingLeft:'10px',paddingRight:'10px',borderRadius: '5px'};
     const onlineStyles:Object={...styles,backgroundColor:onlineBgColor,boxShadow: `0px 0px 15px 1px ${onlineBgColor}`};
     const offlineStyles:Object={...styles,backgroundColor:offlineBgColor,boxShadow: `0px 0px 15px 1px ${offlineBgColor}`};
-    const closeButtonCss={width:'15px',height:'15px',paddingLeft:'10px',cursor:'pointer'};
+    const closeButtonCss={width:'15px',height:'15px',paddingLeft:'5px',cursor:'pointer'};
 
     const CloseButton = ()=>{
-      return <img onClick={()=>setDisplay(false)} style={closeButtonCss} src='../assets/close.svg' alt='X'/>
+      return <div onClick={()=>setDisplay(false)} style={closeButtonCss}>✖️</div>
     }
 
     window.ononline = () => {
