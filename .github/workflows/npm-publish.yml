@@ -21,7 +21,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: add user
+        run: npm adduser
+
       - name: Publish to npm
-        run: npm publish --registry=https://npm.pkg.github.com/ --access public
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
