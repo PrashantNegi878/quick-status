@@ -1,6 +1,6 @@
 import React,{ useState,JSX } from 'react';
-import "./QuickStatus.css";
-import "../style.css";
+import './QuickStatus.css';
+import '../style.css';
 
 interface QuickStatusProps{
   bottom?:string,
@@ -15,7 +15,7 @@ interface QuickStatusProps{
 export const QuickStatus = ({bottom='10px',right='10px',onlineBgColor='rgba(0, 128, 0, 0.5)',onlineContent='😊 You are now connected to the Internet',
                             // eslint-disable-next-line react/prop-types
                             offlineBgColor='rgba(255, 0, 0, 0.5)',offlineContent='😢 The Internet connection has been lost'}:QuickStatusProps) => {
-
+                              
     const [display,setDisplay] =useState(true);
     const [displayData,setDisplayData] = useState(<></>);
 
@@ -43,3 +43,4 @@ export const QuickStatus = ({bottom='10px',right='10px',onlineBgColor='rgba(0, 1
   );
 };
 
+export default QuickStatus;
