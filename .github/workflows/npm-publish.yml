@@ -21,9 +21,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: add user
-        run: npm adduser
-
       - name: Publish to npm
         run: npm publish --access public
         env:
