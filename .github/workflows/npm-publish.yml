@@ -8,6 +8,8 @@ jobs:
         steps:
             - name: checkout
               uses: actions/checkout@v2
+              env:
+                GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
             - name: node
               uses: actions/setup-node@v2
               with:
@@ -17,4 +19,3 @@ jobs:
               run: npm publish --access public
               env:
                   NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
-                  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
