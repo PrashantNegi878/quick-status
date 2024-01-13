@@ -23,5 +23,8 @@
   },
   "peerDependencies": {
     "react": "^18.2.0"
-  }
+  },
+  "publishConfig": {
+    "@PrashantNegi878:registry": "https://npm.pkg.github.com"
+    }
 }
