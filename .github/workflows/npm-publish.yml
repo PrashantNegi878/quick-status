@@ -32,7 +32,7 @@ jobs:
 
       - name: Publish the packages
         run: |
-          npm publish --access public
+          npm login && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
