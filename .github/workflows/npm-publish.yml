@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "lts/*"
-          registry-url: "https://registry.npmjs.org/"
+          registry-url: "https://registry.npmjs.org"
 
       - name: Install latest NPM
         run: npm install -g npm@latest
@@ -32,7 +32,7 @@ jobs:
 
       - name: Publish the packages
         run: |
-          npm publish --access public
+          npm adduser && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
