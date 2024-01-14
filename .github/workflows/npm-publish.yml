@@ -30,11 +30,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Config git metadata
-        run: |
-          git config --global user.name 'Prashant Negi'
-          git config --global user.email prashantnegi878@gmail.com.com'
-
       - name: Publish the packages
         run: |
           npm publish --workspace=packages
