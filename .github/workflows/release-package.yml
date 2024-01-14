@@ -1,9 +1,8 @@
 name: Node.js Package to GITHUB
 
 on:
-  push:
-    branches:
-        main
+  release:
+    types: [created]
 
 jobs:
  build:
