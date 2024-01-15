@@ -1,6 +1,4 @@
 import React,{ useState,JSX } from 'react';
-import './QuickStatus.css';
-import '../style.css';
 
 interface QuickStatusProps{
   bottom?:string,
