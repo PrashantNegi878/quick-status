@@ -55,42 +55,42 @@ export default App;
 
 Quick Status offers a range of customizable parameters to tailor the appearance and messaging of the online/offline status popup according to your project's needs.
 
-**bottom (Optional):**
+- **bottom (Optional):**
 
 Example: bottom='10px'
 
 Adjusts the distance of the component from the bottom of the screen.
 
 
-**right (Optional):**
+- **right (Optional):**
 
 Example: right='10px'
 
 Sets the distance of the component from the right side of the screen.
 
 
-**onlineBgColor (Optional):**
+- **onlineBgColor (Optional):**
 
 Example: onlineBgColor='green'
 
 Specifies the color of the component when the user comes back online.
 
 
-**offlineBgColor (Optional):**
+- **offlineBgColor (Optional):**
 
 Example: offlineBgColor='red'
 
 Defines the color of the component when the user goes offline.
 
 
-**onlineContent (Optional):**
+- **onlineContent (Optional):**
 
 Example: onlineContent='User is back online'
 
 Content to display when the user is back online. This can be plain text or JSX.
 
 
-**offlineContent (Optional):**
+- **offlineContent (Optional):**
 
 Example: offlineContent='User is currently offline'
 
