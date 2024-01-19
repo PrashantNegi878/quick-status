@@ -1,10 +1,12 @@
 # Quick Status
-### React-TypeScript Library for Online/Offline Status Popup
+### React-TypeScript Library for Online/Offline Status Popup 
 
-Quick Status is a lightweight and easy-to-use React TypeScript library designed to enhance user experience by providing a visual indicator when the user goes offline or comes back online. With just a simple  <QuickStatus/>  tag, you can integrate this library into any React project effortlessly.
+
+Quick Status is a lightweight and easy-to-use React TypeScript library designed to enhance user experience by providing a visual indicator when the user goes offline or comes back online. With just a simple ' <QuickStatus/> ' tag, you can integrate this library into any React project effortlessly.
+
 
 ### Installation
-Install Quick Status in your project using [npm]('https://www.npmjs.com/package/@prashantnegi878/quick-status') :
+Install Quick Status in your project using npm :
 
 `npm install @prashantnegi878/quick-status`
 
@@ -57,3 +59,21 @@ export default App;
 **Dynamic Colors:** Define the colors that best match your application's aesthetic with the onlineBgColor and offlineBgColor parameters, allowing you to choose distinct colors for online and offline states.
 
 **Informative Content:** Keep your users informed with customizable content for both online and offline states. Utilize the onlineContent and offlineContent parameters to display messages or JSX elements.
+
+### **Code Snippits**
+**Usage without conditional parameters:**
+![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/public/snippits/withoutParams.png)
+
+
+**Usage with conditional parameters:**
+![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/public/snippits/withParams.png)
+
+### **Component Snapshots**
+
+**When user is Offline:**
+- ![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/public/snippits/offline.png)
+- ![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/public/snippits/when%20offline.png)
+
+**When user is back Online:**
+- ![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/public/snippits/online.png)
+- ![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/public/snippits/when%20online.png)
