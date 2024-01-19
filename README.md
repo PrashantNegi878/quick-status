@@ -2,7 +2,7 @@
 ### React-TypeScript Library for Online/Offline Status Popup 
 
 
-Quick Status is a lightweight and easy-to-use React TypeScript library designed to enhance user experience by providing a visual indicator when the user goes offline or comes back online. With just a simple ' <QuickStatus/> ' tag, you can integrate this library into any React project effortlessly.
+Quick Status is a lightweight and easy-to-use React TypeScript library designed to enhance user experience by providing a visual indicator when the user goes offline or comes back online.
 
 
 ### Installation
@@ -52,7 +52,7 @@ export default App;
 ```
 
 ### **Features:**
-**Simple Integration:** Incorporate the library into your project with minimal effort using the <QuickStatus/> tag.
+**Simple Integration:** Incorporate the library into your project with minimal effort using the QuickStatus tag.
 
 **Customizable Appearance:** Tailor the appearance of the popup to suit your application's design. Adjust the distance from the bottom and right of the screen using the optional bottom and right parameters.
 
