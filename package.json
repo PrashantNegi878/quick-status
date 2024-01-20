@@ -1,7 +1,7 @@
 {
   "name": "@prashantnegi878/quick-status",
   "private": false,
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Online/Offline Status Indicator",
   "keywords": [ 
     "react",
