@@ -107,18 +107,18 @@ Content to display when the user is offline. This can be plain text or JSX.
 
 ### **Code Snippits**
 **Usage without conditional parameters:**
-![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/public/snippits/withoutParams.png)
+![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/snippits/withoutParams.png)
 
 
 **Usage with conditional parameters:**
-![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/public/snippits/withParams.png)
+![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/snippits/withParams.png)
 
 ### **Component Snapshots**
 
 **When user is Offline:**
-- ![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/public/snippits/offline.png)
-- ![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/public/snippits/when%20offline.png)
+- ![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/snippits/offline.png)
+- ![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/snippits/when%20offline.png)
 
 **When user is back Online:**
-- ![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/public/snippits/online.png)
-- ![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/public/snippits/when%20online.png)
+- ![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/snippits/online.png)
+- ![](https://raw.githubusercontent.com/PrashantNegi878/quick-status/main/snippits/when%20online.png)
